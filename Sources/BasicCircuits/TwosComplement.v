@@ -18,3 +18,11 @@ module TwosComplement(
 
     assign Out = ~In + 1;
 endmodule
+
+
+// TODO:
+// A short cut for finding the 2's compliment
+// - Start from the LSB (right-most bit)
+// - Write all all the bit values until you enounter a '1'
+// - write that '1` down
+// - invert all the bits that comes after it
